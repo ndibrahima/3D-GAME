@@ -10,7 +10,7 @@ public class AnimateGirl : MonoBehaviour
     [Tooltip("Vitesse en seconde")]
     public int MaxSpeed = 2;
 
-    // Autres scripts
+    //scripts
     private SpriteRenderer spriteRenderer;
      private Vector3 speed;
     private Animator animator;
