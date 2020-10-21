@@ -36,8 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AnimateGirl.cs" />
-     <Compile Include="Assets\Tracker.cs" />
+     <Compile Include="Assets\Scripts\Tracker.cs" />
+     <Compile Include="Assets\Scripts\AnimateGirl.cs" />
+     <Compile Include="Assets\AnimatedBall.cs" />
+     <Compile Include="Assets\Scripts\MoveBall.cs" />
+     <Compile Include="Assets\Scripts\BallCreator.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
