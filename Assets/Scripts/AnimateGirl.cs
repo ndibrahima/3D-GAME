@@ -17,12 +17,13 @@ public class AnimateGirl : MonoBehaviour
     private static readonly int Roll = Animator.StringToHash("Roll");
     private static readonly int GoingUp = Animator.StringToHash("GoingUp");
 
+//awake
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
     }
-
+  //update
     void Update()
     {
         var maxDistancePerFrame = MaxSpeed * Time.deltaTime;
