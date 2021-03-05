@@ -22,8 +22,9 @@ public class AnimateGirl : MonoBehaviour
     }
 
     static readonly int Speed = Animator.StringToHash("Speed");
-    static readonly int Jump = Animator.StringToHash("Jump");
     static readonly int Roll = Animator.StringToHash("Roll");
+    static readonly int Jump = Animator.StringToHash("Jump");
+
     void FixedUpdate()
     {
         var maxDisancePerFrame = MaxSpeed;
